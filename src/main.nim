@@ -1,7 +1,6 @@
 import os
 import fix_to_json
 
-
 proc main() =
   let args = commandLineParams()
 
