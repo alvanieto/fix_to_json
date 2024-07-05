@@ -1,6 +1,6 @@
 import tables
 
-let fixMessageTypes = {
+const fixMessageTypes = {
   "0": "Heartbeat",
   "1": "Test Request",
   "2": "Resend Request",
@@ -56,7 +56,7 @@ proc getMessageType*(msgType: string): string =
 
 import tables
 
-let fixFieldDescriptions = {
+const fixFieldDescriptions = {
   "1": "Account",
   "2": "AdvId",
   "3": "AdvRefID",
