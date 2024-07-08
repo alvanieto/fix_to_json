@@ -1015,4 +1015,4 @@ const fixFieldDescriptions = {
 proc getFieldDescription*(fieldNumber: string): string =
   if fixFieldDescriptions.hasKey(fieldNumber):
     return fixFieldDescriptions[fieldNumber]
-  result = "Unknown Field"
+  return "Unknown Field"

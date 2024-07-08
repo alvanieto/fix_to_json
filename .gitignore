@@ -1,2 +1,3 @@
 main
 fix_to_json
+tests/test_fix_to_json
