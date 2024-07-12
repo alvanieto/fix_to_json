@@ -1,6 +1,8 @@
 # Description
 Simple nim application to convert a FIX message to json
 
+![sample](sample.png)
+
 To build & run the application:
 ```
 nimble build
