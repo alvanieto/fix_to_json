@@ -7,6 +7,12 @@ nimble build
 main
 ```
 
+To run the server:
+```
+nim js -d:release src/templates/index.nim
+nim c -r src/server.nim
+```
+
 To run the tests:
 ```
 nimble test

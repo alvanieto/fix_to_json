@@ -54,8 +54,6 @@ proc getMessageType*(msgType: string): string =
     return fixMessageTypes[msgType]
   return "Unknown Message Type"
 
-import tables
-
 const fixFieldDescriptions = {
   "1": "Account",
   "2": "AdvId",
