@@ -11,3 +11,4 @@ bin = @["main"]
 
 requires "nim >= 2.0.4"
 requires "karax >= 1.3.3"
+requires "prologue >= 0.6.6"
