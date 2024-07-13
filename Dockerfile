@@ -1,8 +1,7 @@
 FROM nimlang/nim
 
-WORKDIR /opt/fix_to_json
+RUN nim js -d:release src/templates/index.nim && nim c -r src/server.nim
 
-COPY ./src/server .
-COPY ./src/templates .
+EXPOSE 8080
 
-CMD ["server"]
+CMD ["./src/server"]
